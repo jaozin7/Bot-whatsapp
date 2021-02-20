@@ -1,26 +1,26 @@
 const help = (prefix) => {
 	return `
-「 *𝗔𝗥𝗥157 - 𝗕𝗢𝗧* 」
+「 🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 」
 
  ▷ *informações*
  ▷ Prefix: 「  ${prefix}  」
- ▷ Criador : 𝘉𝘙𝘜𝘟𝘐𝘕𝘏𝘖 𝘔𝘖𝘋𝘚
- ▷ 𝘔𝘌𝘜 𝘊𝘈𝘕𝘈𝘓 𝘋𝘈 𝘜𝘔𝘈 𝘍𝘖𝘙𝘊𝘈 𝘓𝘈 𝘍𝘔𝘓 https://youtube.com/channel/UCalQOjX5BFqim6x8JyCMM-w
+ ▷ Criador :🥀*𝐉𝐀𝐎𝐙𝐈𝐍*🥀
+ ▷ MEU NMR FML: wa.me/+5533999342694
 ❖ ── ✦ ──『✙』── ✦ ── ❖
-▷ 𝗢𝗨𝗧𝗥𝗢𝗦 𝗠𝗘𝗡𝗨𝗦
+▷ 🥀𝗢𝗨𝗧𝗥𝗢𝗦 𝗠𝗘𝗡𝗨𝗦🥀
 *╔═══❖•ೋ° °ೋ•❖═══╗*
 ☛ menuadmin
 ☛ nsfwmenu
 ☛ paulomenu
 *╚═══❖•ೋ° °ೋ•❖═══╝*
-✦ *𝗦𝗢𝗕𝗥𝗘*
+✦ 🥀*𝗦𝗢𝗕𝗥𝗘*🥀
   ▋
   ▋▰ ☛ ${prefix}info
   ▋▰ ☛ ${prefix}blocklist
   ▋▰ ☛ ${prefix}chatlist
   ▋▰ ☛ ${prefix}ping
   ▋▰ ☛ ${prefix}bugreport
-✦ *𝗙𝗔𝗭𝗘𝗥*
+✦ 🥀*𝗙𝗔𝗭𝗘𝗥*🥀
   ▋
   ▋▰ ☛ ${prefix}sticker
   ▋▰ ☛ ${prefix}stickergif
@@ -57,12 +57,12 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}herrypotter
   ▋▰ ☛ ${prefix}pubglogo
   ▋▰ ☛ ${prefix}quotemaker
-✦ *𝗠𝗜𝗗𝗜𝗔*
+✦ 🥀*𝗠𝗜𝗗𝗜𝗔*🥀
   ▋
   ▋▰ ☛ ${prefix}trendtwit
   ▋▰ ☛ ${prefix}randomkpop
   ▋▰ ☛ ${prefix}ytsearch
-✦ *𝗘𝗗𝗨𝗖𝗔𝗖𝗔𝗢*
+✦ 🥀*𝗘𝗗𝗨𝗖𝗔𝗖𝗔𝗢*🥀
   ▋
   ▋▰ ☛ ${prefix}wiki
   ▋▰ ☛ ${prefix}wikien
@@ -70,39 +70,39 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}quotes
   ▋▰ ☛ ${prefix}quotes2
   ▋▰ ☛ ${prefix}artinama
-✦ *𝗞𝗘𝗥𝗔𝗡𝗚 𝗔𝗝𝗔𝗜𝗕*
+✦ 🥀*𝗞𝗘𝗥𝗔𝗡𝗚 𝗔𝗝𝗔𝗜𝗕*🥀
   ▋
   ▋▰ ☛ ${prefix}apakah
   ▋▰ ☛ ${prefix}kapankah
   ▋▰ ☛ ${prefix}rate
   ▋▰ ☛ ${prefix}bisakah
-✦ *𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*
+✦ 🥀*𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*🥀
   ▋▰
   ▋▰ ☛ ${prefix}images
   ▋▰ ☛ ${prefix}ytmp3
   ▋▰ ☛ ${prefix}ytmp4
   ▋▰ ☛ ${prefix}tiktok
   ▋▰ ☛ ${prefix}joox
-✦ *𝗠𝗘𝗠𝗘*
+✦ 🥀*𝗠𝗘𝗠𝗘*🥀
   ▋
   ▋▰ ☛ ${prefix}meme
   ▋▰ ☛ ${prefix}memeindo
-✦ *𝗦𝗢𝗠*
+✦ 🥀*𝗦𝗢𝗠*🥀
   ▋
   ▋▰ ☛ ${prefix}play
-  ▋▰ ☛ ${prefix}tts
-✦ *𝗠𝗨𝗦𝗜𝗖𝗔*
+  🥀▋▰ ☛ ${prefix}tts
+✦ *𝗠𝗨𝗦𝗜𝗖𝗔*🥀
   ▋
   ▋▰ ☛ ${prefix}lirik
   ▋▰ ☛ ${prefix}chord
-✦ *𝗜𝗦𝗟𝗔𝗠𝗜𝗦𝗠𝗢*
+✦ 🥀*𝗜𝗦𝗟𝗔𝗠𝗜𝗦𝗠𝗢*🥀
   ▋
   ▋▰ ☛ ${prefix}quran
-✦ *𝗦𝗧𝗔𝗟𝗞*
+✦ 🥀*𝗦𝗧𝗔𝗟𝗞*🥀
   ▋ 
   ▋▰ ☛ ${prefix}tiktokstalk
   ▋▰ ☛ ${prefix}igstalk
-✦ *𝗪𝗜𝗕𝗨*
+✦ 🥀*𝗪𝗜𝗕𝗨*🥀
   ▋
   ▋▰ ☛ ${prefix}neonime
   ▋▰ ☛ ${prefix}pokemon
@@ -113,7 +113,7 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}husbu2
   ▋▰ ☛ ${prefix}wait
   ▋▰ ☛ ${prefix}nekonime
-✦ *𝗗𝗜𝗩𝗘𝗥𝗦𝗔𝗢*
+✦ 🥀*𝗗𝗜𝗩𝗘𝗥𝗦𝗔𝗢*🥀
   ▋
   ▋▰ ☛ ${prefix}alay
   ▋▰ ☛ ${prefix}gantengcek
@@ -124,7 +124,7 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}trust
   ▋▰ ☛ ${prefix}dare
   ▋▰ ☛ ${prefix}simi
-✦ *𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗔𝗢*
+✦ 🥀*𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗔𝗢*🥀
   ▋
   ▋▰ ☛ ${prefix}bahasa
   ▋▰ ☛ ${prefix}kodenegara
@@ -134,7 +134,7 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}infogempa
   ▋▰ ☛ ${prefix}jadwaltvnow
   ▋▰ ☛ ${prefix}covid
-✦ *𝗗𝗢𝗡𝗢*
+✦ 🥀*𝗗𝗢𝗡𝗢*🥀
   ▋
   ▋▰ ☛ ${prefix}setprefix
   ▋▰ ☛ ${prefix}block
@@ -142,7 +142,7 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}bcgc
   ▋▰ ☛ ${prefix}clone
   ▋▰ ☛ ${prefix}clearall
-✦ *𝗢𝗨𝗧𝗥𝗢𝗦*
+✦ 🥀*𝗢𝗨𝗧𝗥𝗢𝗦*🥀
   ▋
   ▋▰ ☛ ${prefix}send
   ▋▰ ☛ ${prefix}wame
@@ -155,6 +155,6 @@ const help = (prefix) => {
   ▋▰ ☛ ${prefix}fml2
 ❖ ── ✦ ──『✙』── ✦ ── ❖
 `
-}
+}CABO.CHAMA EU WA.ME/+5533999342694
 
 exports.help = help
