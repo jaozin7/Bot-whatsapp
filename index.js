@@ -78,9 +78,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:𝐁𝐑𝐔𝐗𝐈𝐍𝐇𝐎🖤\n' // full name
+            + 'FN: 𝐉𝐀𝐎𝐙𝐈𝐍🖤\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=+5511934713306:+55 (11) 93471-3306\n' // ID do WhatsApp + número de telefone
+            + 'TEL;type=CELL;type=VOICE;waid=+5533999342694:+55 (33) 99934-2694\n' // ID do WhatsApp + número de telefone
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -259,10 +259,10 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					ownerG: '[❗] Este comando só pode ser usado pelo grupo proprietário! ❌',
-					ownerB: '[❗] Este comando só pode ser usado pelo Bruxinho! ❌',
+					ownerB: '[❗] Este comando só pode ser usado pelo jaozin! ❌',
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
-                                        daftarB: `── 「REGISTRE-SE」 ──\nSLV mano como!\nVocê nn está registrado no banco de dados Do BRUXINHO MODS tem que se cadastrar pra ter acesso ao menu, \n\nComando : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar bruxinho|19`,
+                                        daftarB: `── 「REGISTRE-SE」 ──\nSLV mano como!\nVocê nn está registrado no banco de dados Do JAOZIN tem que se cadastrar pra ter acesso ao menu, \n\nComando : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar JAOZIN|15`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
@@ -506,7 +506,7 @@ case 'timer':
 					break
 				case 'marvellogo':
 					var gh = body.slice(12)
-					if (args.length < 1) return reply(`Enviar pedidos ${prefix}marvellogo texto, por exemplo ${prefix}marvellogo bruxinho BOT`)
+					if (args.length < 1) return reply(`Enviar pedidos ${prefix}marvellogo texto, por exemplo ${prefix}marvellogo JAOZIN BOT`)
                                         if (!isUser) return reply(mess.only.daftarB)
 					reply(mess.wait)
 					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=snow&text=${gh}&apikey=BotWeA`, {method: 'get'})
@@ -821,7 +821,7 @@ case 'timer':
 						teks += `╠➥ ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙', text, {quoted: mek})
+					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘  🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙', text, {quoted: mek})
 					break
                 case 'tagall3':
 				client.updatePresence(from, Presence.composing) 
@@ -834,7 +834,7 @@ case 'timer':
 						teks += `╠➥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙', text, {detectLinks: false, quoted: mek})
+					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘  🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
 				client.updatePresence(from, Presence.composing) 
@@ -847,7 +847,7 @@ case 'timer':
 						teks += `╠➥ ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙', text, {quoted: mek})
+					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘  🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙', text, {quoted: mek})
 					break
                 case 'tagall5':
 				client.updatePresence(from, Presence.composing) 
@@ -860,7 +860,7 @@ case 'timer':
 						teks += `╠➥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙')
+					reply('╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘  🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙')
 					break
 				case 'send':
 					var pc = body.slice(6)
@@ -1418,7 +1418,7 @@ case 'timer':
 					var gh = body.slice(11)
 					var teks1 = gh.split("|")[0];
 					var teks2 = gh.split("|")[1];
-					if (args.length < 1) return reply(`onde está o texto? exemplo ${prefix}logowolf BRUXINHO|MODS`)
+					if (args.length < 1) return reply(`onde está o texto? exemplo ${prefix}logowolf JAOZIN|GOSTOSO`)
 					reply(mess.wait)
 					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo1&text1=${teks1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
@@ -1505,7 +1505,7 @@ case 'timer':
 					var gh = body.slice(7)
 					var gbl1 = gh.split("|")[0];
 					var gbl2 = gh.split("|")[1];
-					if (args.length < 1) return reply(`Cadê o texto, hum\nExemplo: ${prefix}phlogo |BRUXINHO|MODS`)
+					if (args.length < 1) return reply(`Cadê o texto, hum\nExemplo: ${prefix}phlogo |JAOZIN|gostoso`)
 					reply(mess.wait)
 					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/textpro?theme=pornhub&text1=${gbl1}&text2=${gbl2}`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
