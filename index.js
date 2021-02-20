@@ -259,10 +259,10 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					ownerG: '[❗] Este comando só pode ser usado pelo grupo proprietário! ❌',
-					ownerB: '[❗] Este comando só pode ser usado pelo Bruxinho! ❌',
+					ownerB: '[❗] Este comando só pode ser usado pelo JAOZIN! ❌',
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
-                                        daftarB: `── 「REGISTRE-SE」 ──\nSLV mano como!\nVocê nn está registrado no banco de dados Do BRUXINHO MODS tem que se cadastrar pra ter acesso ao menu, \n\nComando : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar bruxinho|19`,
+                                        daftarB: `── 「REGISTRE-SE」 ──\nSLV mano como!\nVocê nn está registrado no banco de dados Do JAOZIN tem que se cadastrar pra ter acesso ao menu, \n\nComando : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar JAOZI|15`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
@@ -808,7 +808,7 @@ case 'timer':
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙', members_id, true)
+					mentions('╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙', members_id, true)
 					break
                 case 'tagall2':
 				client.updatePresence(from, Presence.composing) 
@@ -821,7 +821,7 @@ case 'timer':
 						teks += `╠➥ ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙', text, {quoted: mek})
+					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙', text, {quoted: mek})
 					break
                 case 'tagall3':
 				client.updatePresence(from, Presence.composing) 
@@ -834,7 +834,7 @@ case 'timer':
 						teks += `╠➥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙', text, {detectLinks: false, quoted: mek})
+					client.sendMessage(from, '╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
 				client.updatePresence(from, Presence.composing) 
@@ -860,7 +860,7 @@ case 'timer':
 						teks += `╠➥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 ARR157 BOT 〙')
+					reply('╔══✪〘 MARCANDO TODO MUNDO QUEM NN GOSTA QUE SE FODA🤬💪 〙✪══\n╠➥'+teks+'╚═〘 🥀*𝐁𝐎𝐓 𝐃𝐎 𝐉𝐀𝐎𝐙𝐈𝐍*🥀 〙')
 					break
 				case 'send':
 					var pc = body.slice(6)
